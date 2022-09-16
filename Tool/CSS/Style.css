@@ -1,5 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    background: rgb(47,62,117);
+    background: linear-gradient(90deg, rgba(47,62,117,1) 0%, rgba(21,28,53,1) 100%);
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Header */
+
+/* NavBar */
+
+#NavBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 32px 120px;
+}
+
+.Onglets-Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.Onglet {
+    opacity: 50%;
+    color: white;
+    transition: 0.2s;
+}
+
+.Onglet:hover {
+    opacity: 100%;
+    transition: 0.2s;
+}
+
+.OngletActive {
+    opacity: 100%;
+    position: relative;
+}
+
+.OngletActive::after {
+    position: absolute;
+    left: 50%;
+    top: 130%;
+    border-radius: 50%;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: white;
+}
+
+/* Hero */
+
+#Hero {
+    width: 100%;
+    height: 82vh;
+    background-image: url('../../Assets/Images/Iphone\ 13\ -\ Noir.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.HeroContainer {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.HeroContent {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.Welcome {
+    letter-spacing: 14px;
+    text-transform: uppercase;
+}
+
+.Zone {
+    letter-spacing: 50px;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 0.9;
+}
+
+.Business {
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.9;
+    margin-bottom: 10%;
+}
+
+.Info-Hero {
+    line-height: 2;
+}
+
+.MoreInformation {
+    margin-top: 20%;
+    border: 1px solid white;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 20px;
 }
