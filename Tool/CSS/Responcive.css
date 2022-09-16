@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+
+    /* Header */
+
+    /* NavBar */
+
+    #NavBar {
+        padding: 32px 40px;
+    }
+
+    .Onglets-Container {
+        display: none;
+    }
+
+    .Menu-NavBar {
+        display: unset;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* Hero */
+
+    #Hero {
+        background-position: 230px -50px;
+    }
+
+    .HeroContainer {
+        width: 100%;
+        position: unset;
+    }
+
+    .HeroContent {
+        position: unset;
+        padding-top: 30%;
+        margin-left: 20%;
+    }
+
+    .Welcome {
+        font-size: 10.1px;
+        letter-spacing: 8.5px;
+    }
+
+    .Zone {
+        letter-spacing: 27px;
+    }
+
+    .Zone, .Business {
+        font-size: 35px;
+    }
+}
