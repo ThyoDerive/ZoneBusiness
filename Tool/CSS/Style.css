@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,7 +21,7 @@ a {
 li {
     list-style-type: none;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1400px) {
 
     /* Header */
 
@@ -67,7 +69,7 @@ li {
         background: white;
     }
 
-    .Menu-NavBar {
+    #Menu-NavBar{
         display: none;
     }
 

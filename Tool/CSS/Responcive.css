@@ -12,7 +12,7 @@
         display: none;
     }
 
-    .Menu-NavBar {
+    #Menu-NavBar {
         display: unset;
         color: white;
         cursor: pointer;
