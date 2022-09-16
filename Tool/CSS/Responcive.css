@@ -12,11 +12,11 @@
         display: none;
     }
 
-    /* #Menu-NavBar{   A Résoudre ! 
-        display: unset;
+    #Menu-NavBar{
+        display: flex;
         color: white;
         cursor: pointer;
-    } */
+    } 
 
     /* Hero */
 
