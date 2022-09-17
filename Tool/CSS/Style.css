@@ -129,4 +129,86 @@ li {
         width: fit-content;
         border-radius: 20px;
     }    
+
+    /* Main */
+
+    #Info {
+        width: 80%;
+        height: 80vh;
+        margin: 10% auto;
+        background-image: url("../../Assets/Images/Quart.png"); /* Mettre ici l'image que tu veux a la place des 4 carrés */
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    .SectionTextLeft{
+        width: 40%;
+        height: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center; 
+    }
+
+    .SectionTitleLeft {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 32px;
+        text-align: start;
+        text-transform: uppercase;
+    }
+
+    .SectionInfoLeft {
+        font-size: 21px;
+        font-weight: lighter;
+        line-height: 150%;
+        text-align: justify;
+    }
+
+    #Online {
+        width: 80%;
+        height: 80vh;
+        margin: 10% auto;
+        background-image: url("../../Assets/Images/computer.png"); /* Mettre ici l'image que tu veux a la place des 4 carrés */
+        background-position: left;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .SectionTextRight {
+        width: 40%;
+        height: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center; 
+        text-align: end;
+    }
+
+    .SectionTitleRight{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 32px;
+        text-align: end;
+        text-transform: uppercase;
+    }
+
+    .SectionInfoRight {
+        font-size: 21.5px;
+        font-weight: lighter;
+        line-height: 150%;
+        text-align: justify;
+    }
+
+    #Instore {
+        width: 80%;
+        height: 80vh;
+        margin: 10% auto;
+        background-image: url("../../Assets/Images/map-pin.png"); /* Mettre ici l'image que tu veux a la place des 4 carrés */
+        background-position: right;
+        background-repeat: no-repeat;
+    }
 }
