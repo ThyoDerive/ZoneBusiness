@@ -25,44 +25,44 @@ a {
 li {
     list-style-type: none;
 }
+@media only screen and (max-width: 1400px) {
 
-/* Resaux */
+    /* Resaux */
 
-#Resaux {
-    position: fixed;
-    top: 50%;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    z-index: 9;
-}
+    #Resaux {
+        position: fixed;
+        top: 50%;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        z-index: 9;
+    }
 
-.Resaux {
-    padding: 5px;
-    background: white;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-    transform: translateX(-80%);
-    transition: 0.2s ease;
-}
+    .Resaux {
+        padding: 5px;
+        background: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        transform: translateX(-80%);
+        transition: 0.2s ease;
+    }
 
-.Instagram, .Discord, .Twitter {
-    padding: 5px 10px;
-    text-transform: uppercase;
-}
+    .Instagram, .Discord, .Twitter {
+        padding: 5px 10px;
+        text-transform: uppercase;
+    }
 
-.Instagram-Logo {
-    margin-right: 3px;
-}
+    .Instagram-Logo {
+        margin-right: 3px;
+    }
 
-.ResauxActive {
-    transform: translateX(0);
-    transition: 0.2s;
-}
-
+    .ResauxActive {
+        transform: translateX(0);
+        transition: 0.2s;
+    }
 
     /* Header */
 
@@ -112,7 +112,7 @@ li {
         transition: 0.2s ease-in-out;
     }
 
-    .Menu-NavBar {
+    #Menu-NavBar{
         display: none;
     }
 
@@ -254,3 +254,4 @@ li {
         background-position: right;
         background-repeat: no-repeat;
     }
+}
