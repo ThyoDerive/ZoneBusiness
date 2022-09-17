@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat';
     font-size: 20px;
@@ -56,6 +60,7 @@ li {
     .OngletActive {
         opacity: 100%;
         position: relative;
+        transition: 0.2s ;
     }
 
     .OngletActive::after {
@@ -67,6 +72,7 @@ li {
         width: 5px;
         height: 5px;
         background: white;
+        transition: 0.2s ease-in-out;
     }
 
     .Menu-NavBar {
