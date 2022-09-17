@@ -25,7 +25,6 @@ a {
 li {
     list-style-type: none;
 }
-@media only screen and (max-width: 1400px) {
 
     /* Header */
 
@@ -217,4 +216,3 @@ li {
         background-position: right;
         background-repeat: no-repeat;
     }
-}
