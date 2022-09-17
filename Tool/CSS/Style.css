@@ -179,9 +179,10 @@ li {
         width: 80%;
         height: 80vh;
         margin: 10% auto;
-        background-image: url("../../Assets/Images/Quart.png"); /* Mettre ici l'image que tu veux a la place des 4 carrés */
+        background-image: url('../../Assets/Images/Quart.png'); /* Mettre ici l'image que tu veux a la place des 4 carrés */
         background-position: right;
         background-repeat: no-repeat;
+        background-size: auto;
     }
 
     .SectionTextLeft{
@@ -218,6 +219,7 @@ li {
         background-repeat: no-repeat;
         display: flex;
         justify-content: flex-end;
+        background-size: auto;
     }
 
     .SectionTextRight {
@@ -253,5 +255,6 @@ li {
         background-image: url("../../Assets/Images/map-pin.png"); /* Mettre ici l'image que tu veux a la place des 4 carrés */
         background-position: right;
         background-repeat: no-repeat;
+        background-size: auto;
     }
 }

@@ -1,5 +1,9 @@
 @media only screen and (max-width: 600px) {
 
+    #Resaux{
+        display: none;
+    }
+
     /* Header */
 
     /* NavBar */
@@ -46,5 +50,26 @@
 
     .Zone, .Business {
         font-size: 35px;
+    }
+
+    /* Main */
+
+    #Info, #Online, #Instore {
+        flex-direction: column;
+        width: 80%;
+        height: 95vh;
+        margin: 0 auto;
+        background-size: contain;
+        background-position: bottom;
+    }
+
+    .SectionTextLeft, .SectionTextRight {
+        width: 100%;
+        justify-content: unset;
+    }
+
+    .SectionInfoLeft, .SectionInfoRight {
+        font-size: 15px;
+        justify-content: flex-start;
     }
 }
